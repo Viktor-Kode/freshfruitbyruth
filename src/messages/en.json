@@ -1,0 +1,147 @@
+{
+  "nav": {
+    "aboutUs": "About Us",
+    "menu": "Menu",
+    "gallery": "Gallery",
+    "features": "Specials & Events",
+    "contactUs": "Contact Us"
+  },
+  "hero": {
+    "cantina": "Freddys Tacos Cantina",
+    "slides": {
+      "slide1": {
+        "title": "Freddys Tacos After Dark",
+        "description": "Step into our flagship taquería and savor chef-driven tacos fired over mesquite flames, paired with house-crafted agave cocktails."
+      },
+      "slide2": {
+        "title": "Seasonal Comal Creations",
+        "description": "Our kitchen reimagines regional Mexican staples with market produce, masa ground in-house, and bold street-food energy."
+      },
+      "slide3": {
+        "title": "Tasting Flights & Agave Pairings",
+        "description": "Reserve an experience featuring curated taco flights, ceviche pairings, and rare mezcals sourced directly from Oaxaca."
+      }
+    },
+    "viewMenu": "View Menu",
+    "contactUs": "Contact Us"
+  },
+  "menu": {
+    "title": "Tasting Menu",
+    "subtitle": "Explore the Current Lineup",
+    "description": "Filter by style to explore Freddys latest tacos, small bites, and sweet finishes. Tap a row to reveal the chef's notes for each dish.",
+    "headers": {
+      "name": "Name",
+      "style": "Style",
+      "price": "Price"
+    },
+    "seasonal": {
+      "title": "Seasonal Specials",
+      "subtitle": "Limited Time Offerings",
+      "description": "These items are available for a limited time. Don't miss out!",
+      "availableUntil": "Available until"
+    },
+    "catering": {
+      "title": "Catering & Large Orders",
+      "subtitle": "Perfect for Events",
+      "description": "Make your next event memorable with our catering packages. All packages include setup and can be customized to your needs.",
+      "serves": "Serves",
+      "leadTime": "Lead time",
+      "days": "days"
+    },
+    "specialOrders": {
+      "title": "Special Orders & Preorders",
+      "subtitle": "Custom Creations",
+      "description": "Place advance orders for custom items and special occasions. Orders must be placed by the cutoff date.",
+      "orderBy": "Order by"
+    },
+    "events": {
+      "title": "Events & Popups",
+      "subtitle": "Find Us Around Town",
+      "description": "Join us at these upcoming events and popup locations.",
+      "location": "Location",
+      "featuredItems": "Featured Items"
+    },
+    "footer": {
+      "orderingInfo": "Ordering Information"
+    }
+  },
+  "gallery": {
+    "title": "Gallery",
+    "subtitle": "Our Signature Dishes",
+    "description": "Take a visual journey through our most popular dishes and culinary creations."
+  },
+  "features": {
+    "title": "Why Choose Us",
+    "subtitle": "Experience More Than Just a Meal",
+    "feature1": {
+      "heading": "Elegant Dining Atmosphere",
+      "subheading": "Enjoy a warm, refined space perfect for intimate dinners or small group gatherings."
+    },
+    "feature2": {
+      "heading": "Signature Chef Creations",
+      "subheading": "Taste one-of-a-kind dishes crafted with passion by our top culinary team."
+    },
+    "feature3": {
+      "heading": "Fresh, Local Ingredients",
+      "subheading": "We use locally sourced goods daily for unmatched taste and quality."
+    },
+    "feature4": {
+      "heading": "Hassle-Free Reservations",
+      "subheading": "Reserve online in seconds or walk in anytime — we're ready when you are."
+    }
+  },
+  "about": {
+    "title": "About Us",
+    "heading": "Crafted with Passion, Served with Pride",
+    "paragraph1": "At Freddys Tacos, each tortilla is pressed to order and every smoky bite nods to the mercados that inspired us. We char, braise, and slow-roast with intention—bringing the soul of Mexican street food into an intimate, modern cantina.",
+    "paragraph2": "Whether you're celebrating a special occasion or enjoying a casual evening out, our welcoming ambiance and flavorful creations promise something truly special for every guest."
+  },
+  "contact": {
+    "title": "Contact Us",
+    "heading": "Get In Touch",
+    "form": {
+      "fullName": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number (Optional)",
+      "message": "Message",
+      "submit": "Submit",
+      "submitting": "Submitting...",
+      "placeholders": {
+        "fullName": "John Doe",
+        "email": "john.doe@example.com",
+        "phone": "+1234567890",
+        "message": "How can we help you?"
+      }
+    },
+    "validation": {
+      "fullNameMin": "Full name must be at least 2 characters.",
+      "fullNameMax": "Full name is too long.",
+      "emailInvalid": "Enter a valid email address.",
+      "phoneInvalid": "Enter a valid phone number.",
+      "messageMin": "Please let us know how we can help you.",
+      "messageMax": "Message is too long."
+    },
+    "messages": {
+      "success": "We received your message. We will get back to you soon!",
+      "error": "We could not send your message. Please try again.",
+      "thanks": "Thanks! We received your message and will get back to you soon."
+    }
+  },
+  "footer": {
+    "description": "A modern taco concept template built to showcase immersive dining experiences and chef-driven menus.",
+    "contactUs": "Contact Us",
+    "address": "Your Street Address, City, Country",
+    "copyright": "© {year} Freddys Tacos Template. All rights reserved.",
+    "social": {
+      "visitProfile": "Visit social profile"
+    }
+  },
+  "common": {
+    "home": "Home",
+    "phone": "+1 (000) 000-0000",
+    "callReservations": "Call our reservations team at +1 (000) 000-0000",
+    "toggleMenu": "Toggle mobile menu",
+    "closeMenu": "Close menu Modal"
+  }
+}
+

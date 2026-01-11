@@ -1,0 +1,186 @@
+@import 'tailwindcss';
+
+@custom-variant dark (&:is(.dark *));
+
+@theme {
+  --color-primary: #e0c176;
+  --color-secondary: #f4eed7;
+  --color-accent: #d4a95a;
+  --color-deep: #2f2a1f;
+  --color-soft-sky: #f9f5eb;
+  --color-grey: #5b5347;
+
+  --spacing-60\%: 60%;
+  --spacing-70\%: 70%;
+
+  --tracking-widest: 0.515em;
+
+  --radius-Newsletter: 30px 400px 30px 30px;
+}
+
+/*
+  The default border color has changed to `currentcolor` in Tailwind CSS v4,
+  so we've added these compatibility styles to make sure everything still
+  looks the same as it did with Tailwind CSS v3.
+
+  If we ever want to remove these styles, we need to add an explicit border
+  color utility to any element that depends on these defaults.
+*/
+@layer base {
+  *,
+  ::after,
+  ::before,
+  ::backdrop,
+  ::file-selector-button {
+    border-color: var(--color-gray-200, currentcolor);
+  }
+
+  section {
+    @apply py-10;
+  }
+
+  h1 {
+    @apply text-black md:text-7xl sm:text-6xl text-5xl
+  }
+
+  h2 {
+    @apply text-black font-semibold sm:text-5xl text-4xl sm:leading-14 leading-11
+  }
+
+  body {
+    background-color: var(--color-secondary);
+    color: var(--color-deep);
+  }
+}
+
+@layer utilities {
+  .container {
+    @apply max-w-7xl mx-auto w-full px-4;
+  }
+
+  .embla {
+    overflow: hidden;
+  }
+
+  .embla__container {
+    display: flex;
+  }
+
+  .embla__slide {
+    position: relative;
+  }
+
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Better touch targets for mobile Safari */
+  .touch-manipulation {
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  @keyframes bounce-x {
+    0%, 100% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(-4px);
+    }
+  }
+
+  @keyframes bounce-x-reverse {
+    0%, 100% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(4px);
+    }
+  }
+
+  .animate-bounce-x {
+    animation: bounce-x 1.5s ease-in-out infinite;
+  }
+
+  .animate-bounce-x-reverse {
+    animation: bounce-x-reverse 1.5s ease-in-out infinite;
+  }
+
+  /* Logo container - CSS-only approach for better Safari compatibility */
+  .logo-container {
+    height: 20px;
+    max-width: 100px;
+    width: auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+
+  @media (min-width: 768px) {
+    .logo-container {
+      height: 24px;
+      max-width: 117px;
+    }
+  }
+
+  .logo-image {
+    height: 100%;
+    width: auto;
+    max-width: 100%;
+    object-fit: contain;
+    display: block;
+  }
+
+  /* Safari mobile logo fix */
+  @supports (-webkit-touch-callout: none) {
+    .logo-container {
+      -webkit-transform: translateZ(0);
+      transform: translateZ(0);
+      will-change: transform;
+    }
+    
+    .logo-image {
+      -webkit-backface-visibility: hidden;
+      backface-visibility: hidden;
+      image-rendering: -webkit-optimize-contrast;
+      image-rendering: crisp-edges;
+    }
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+  /* Prevent iOS Safari bounce scrolling issues */
+  -webkit-overflow-scrolling: touch;
+}
+
+  /* Fix for Safari mobile header rendering */
+  @supports (-webkit-touch-callout: none) {
+    header {
+      -webkit-transform: translateZ(0);
+      transform: translateZ(0);
+      -webkit-backface-visibility: hidden;
+      backface-visibility: hidden;
+    }
+
+    /* Ensure mobile menu transforms work in Safari */
+    [class*="translate-x-full"],
+    [class*="translate-x-0"] {
+      -webkit-transform: translateX(var(--tw-translate-x, 0));
+      transform: translateX(var(--tw-translate-x, 0));
+    }
+  }
+
+  /* Ensure mobile menu always has solid white background */
+  .mobile-menu {
+    background-color: #ffffff !important;
+    background: #ffffff !important;
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+    isolation: isolate;
+  }

@@ -1,0 +1,147 @@
+{
+  "nav": {
+    "aboutUs": "Sobre Nosotros",
+    "menu": "Menú",
+    "gallery": "Galería",
+    "features": "Especiales y Eventos",
+    "contactUs": "Contáctanos"
+  },
+  "hero": {
+    "cantina": "Freddys Tacos Cantina",
+    "slides": {
+      "slide1": {
+        "title": "Freddys Tacos Después del Anochecer",
+        "description": "Entra a nuestra taquería principal y saborea tacos creados por chefs, cocinados sobre llamas de mezquite, acompañados de cócteles de agave elaborados en casa."
+      },
+      "slide2": {
+        "title": "Creaciones Estacionales del Comal",
+        "description": "Nuestra cocina reinventa los platillos regionales mexicanos con productos del mercado, masa molida en casa y la energía audaz de la comida callejera."
+      },
+      "slide3": {
+        "title": "Degustaciones y Maridajes de Agave",
+        "description": "Reserva una experiencia con vuelos de tacos curados, maridajes de ceviche y mezcales raros obtenidos directamente de Oaxaca."
+      }
+    },
+    "viewMenu": "Ver Menú",
+    "contactUs": "Contáctanos"
+  },
+  "menu": {
+    "title": "Menú de Degustación",
+    "subtitle": "Explora la Selección Actual",
+    "description": "Filtra por estilo para explorar los últimos tacos de Freddys, pequeños bocados y finales dulces. Toca una fila para revelar las notas del chef para cada plato.",
+    "headers": {
+      "name": "Nombre",
+      "style": "Estilo",
+      "price": "Precio"
+    },
+    "seasonal": {
+      "title": "Especiales Estacionales",
+      "subtitle": "Ofertas por Tiempo Limitado",
+      "description": "Estos artículos están disponibles por tiempo limitado. ¡No te los pierdas!",
+      "availableUntil": "Disponible hasta"
+    },
+    "catering": {
+      "title": "Catering y Pedidos Grandes",
+      "subtitle": "Perfecto para Eventos",
+      "description": "Haz que tu próximo evento sea memorable con nuestros paquetes de catering. Todos los paquetes incluyen configuración y se pueden personalizar según tus necesidades.",
+      "serves": "Sirve",
+      "leadTime": "Tiempo de anticipación",
+      "days": "días"
+    },
+    "specialOrders": {
+      "title": "Pedidos Especiales y Prepedidos",
+      "subtitle": "Creaciones Personalizadas",
+      "description": "Realiza pedidos anticipados para artículos personalizados y ocasiones especiales. Los pedidos deben realizarse antes de la fecha límite.",
+      "orderBy": "Pedir antes del"
+    },
+    "events": {
+      "title": "Eventos y Popups",
+      "subtitle": "Encuéntranos por la Ciudad",
+      "description": "Únete a nosotros en estos próximos eventos y ubicaciones popup.",
+      "location": "Ubicación",
+      "featuredItems": "Artículos Destacados"
+    },
+    "footer": {
+      "orderingInfo": "Información de Pedidos"
+    }
+  },
+  "gallery": {
+    "title": "Galería",
+    "subtitle": "Nuestros Platos Firma",
+    "description": "Realiza un viaje visual a través de nuestros platos más populares y creaciones culinarias."
+  },
+  "features": {
+    "title": "Por Qué Elegirnos",
+    "subtitle": "Experimenta Más Que Solo una Comida",
+    "feature1": {
+      "heading": "Ambiente de Comida Elegante",
+      "subheading": "Disfruta de un espacio cálido y refinado perfecto para cenas íntimas o reuniones de grupos pequeños."
+    },
+    "feature2": {
+      "heading": "Creaciones del Chef Firma",
+      "subheading": "Prueba platos únicos elaborados con pasión por nuestro equipo culinario de primer nivel."
+    },
+    "feature3": {
+      "heading": "Ingredientes Frescos y Locales",
+      "subheading": "Utilizamos productos de origen local diariamente para un sabor y calidad inigualables."
+    },
+    "feature4": {
+      "heading": "Reservas Sin Complicaciones",
+      "subheading": "Reserva en línea en segundos o entra en cualquier momento: estamos listos cuando tú lo estés."
+    }
+  },
+  "about": {
+    "title": "Sobre Nosotros",
+    "heading": "Creado con Pasión, Servido con Orgullo",
+    "paragraph1": "En Freddys Tacos, cada tortilla se prensa al momento y cada bocado ahumado rinde homenaje a los mercados que nos inspiraron. Asamos, guisamos y asamos lentamente con intención, llevando el alma de la comida callejera mexicana a una cantina íntima y moderna.",
+    "paragraph2": "Ya sea que estés celebrando una ocasión especial o disfrutando de una noche casual, nuestro ambiente acogedor y creaciones sabrosas prometen algo verdaderamente especial para cada invitado."
+  },
+  "contact": {
+    "title": "Contáctanos",
+    "heading": "Ponte en Contacto",
+    "form": {
+      "fullName": "Nombre Completo",
+      "email": "Correo Electrónico",
+      "phone": "Número de Teléfono (Opcional)",
+      "message": "Mensaje",
+      "submit": "Enviar",
+      "submitting": "Enviando...",
+      "placeholders": {
+        "fullName": "Juan Pérez",
+        "email": "juan.perez@ejemplo.com",
+        "phone": "+1234567890",
+        "message": "¿Cómo podemos ayudarte?"
+      }
+    },
+    "validation": {
+      "fullNameMin": "El nombre completo debe tener al menos 2 caracteres.",
+      "fullNameMax": "El nombre completo es demasiado largo.",
+      "emailInvalid": "Ingresa una dirección de correo electrónico válida.",
+      "phoneInvalid": "Ingresa un número de teléfono válido.",
+      "messageMin": "Por favor, cuéntanos cómo podemos ayudarte.",
+      "messageMax": "El mensaje es demasiado largo."
+    },
+    "messages": {
+      "success": "¡Recibimos tu mensaje. Te responderemos pronto!",
+      "error": "No pudimos enviar tu mensaje. Por favor, inténtalo de nuevo.",
+      "thanks": "¡Gracias! Recibimos tu mensaje y te responderemos pronto."
+    }
+  },
+  "footer": {
+    "description": "Una plantilla de concepto de taco moderna construida para mostrar experiencias gastronómicas inmersivas y menús creados por chefs.",
+    "contactUs": "Contáctanos",
+    "address": "Tu Dirección, Ciudad, País",
+    "copyright": "© {year} Plantilla de Freddys Tacos. Todos los derechos reservados.",
+    "social": {
+      "visitProfile": "Visitar perfil social"
+    }
+  },
+  "common": {
+    "home": "Inicio",
+    "phone": "+1 (000) 000-0000",
+    "callReservations": "Llama a nuestro equipo de reservas al +1 (000) 000-0000",
+    "toggleMenu": "Alternar menú móvil",
+    "closeMenu": "Cerrar menú modal"
+  }
+}
+
