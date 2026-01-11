@@ -7,28 +7,28 @@
     "contactUs": "Contact Us"
   },
   "hero": {
-    "cantina": "Freddys Tacos Cantina",
+    "cantina": "Fresh Fruit By Ruth",
     "slides": {
       "slide1": {
-        "title": "Freddys Tacos After Dark",
-        "description": "Step into our flagship taquería and savor chef-driven tacos fired over mesquite flames, paired with house-crafted agave cocktails."
+        "title": "Fresh Fruit By Ruth",
+        "description": "Delicious, fresh fruit trays, platters, and specialty items made with the finest ingredients. Perfect for any occasion."
       },
       "slide2": {
-        "title": "Seasonal Comal Creations",
-        "description": "Our kitchen reimagines regional Mexican staples with market produce, masa ground in-house, and bold street-food energy."
+        "title": "Catering & Events",
+        "description": "Ideal for community events, school activations, wellness events, and fundraisers. Bulk fruit trays, juices, and aguas frescas available."
       },
       "slide3": {
-        "title": "Tasting Flights & Agave Pairings",
-        "description": "Reserve an experience featuring curated taco flights, ceviche pairings, and rare mezcals sourced directly from Oaxaca."
+        "title": "Fresh Juices & Aguas Frescas",
+        "description": "Enjoy our refreshing fresh juices and traditional aguas frescas by the cup or gallon. Made fresh daily with seasonal fruits."
       }
     },
     "viewMenu": "View Menu",
     "contactUs": "Contact Us"
   },
   "menu": {
-    "title": "Tasting Menu",
-    "subtitle": "Explore the Current Lineup",
-    "description": "Filter by style to explore Freddys latest tacos, small bites, and sweet finishes. Tap a row to reveal the chef's notes for each dish.",
+    "title": "Our Menu",
+    "subtitle": "Fresh Fruit & Specialty Items",
+    "description": "Browse our selection of fresh fruit trays, platters, juices, and specialty items. All items can be customized for your event.",
     "headers": {
       "name": "Name",
       "style": "Style",
@@ -72,29 +72,29 @@
   },
   "features": {
     "title": "Why Choose Us",
-    "subtitle": "Experience More Than Just a Meal",
+    "subtitle": "Fresh Fruit for Every Occasion",
     "feature1": {
-      "heading": "Elegant Dining Atmosphere",
-      "subheading": "Enjoy a warm, refined space perfect for intimate dinners or small group gatherings."
+      "heading": "Fresh, Quality Ingredients",
+      "subheading": "We use only the freshest fruits and ingredients, prepared daily for unmatched quality and taste."
     },
     "feature2": {
-      "heading": "Signature Chef Creations",
-      "subheading": "Taste one-of-a-kind dishes crafted with passion by our top culinary team."
+      "heading": "Perfect for Events",
+      "subheading": "Ideal for community events, school activations, wellness events, and fundraisers. We cater to all sizes."
     },
     "feature3": {
-      "heading": "Fresh, Local Ingredients",
-      "subheading": "We use locally sourced goods daily for unmatched taste and quality."
+      "heading": "Dietary Options Available",
+      "subheading": "Many of our items are vegan, vegetarian, and gluten-free. We can accommodate various dietary preferences."
     },
     "feature4": {
-      "heading": "Hassle-Free Reservations",
-      "subheading": "Reserve online in seconds or walk in anytime — we're ready when you are."
+      "heading": "Customizable Orders",
+      "subheading": "All items can be customized for your event. Bulk orders, special arrangements, and personalized menus available."
     }
   },
   "about": {
     "title": "About Us",
-    "heading": "Crafted with Passion, Served with Pride",
-    "paragraph1": "At Freddys Tacos, each tortilla is pressed to order and every smoky bite nods to the mercados that inspired us. We char, braise, and slow-roast with intention—bringing the soul of Mexican street food into an intimate, modern cantina.",
-    "paragraph2": "Whether you're celebrating a special occasion or enjoying a casual evening out, our welcoming ambiance and flavorful creations promise something truly special for every guest."
+    "heading": "Fresh Fruit By Ruth",
+    "paragraph1": "At Fresh Fruit By Ruth, we specialize in creating beautiful, fresh fruit arrangements and specialty items. From large fruit trays perfect for events to individual fruit cups and refreshing beverages, we bring the best of fresh fruit to your table.",
+    "paragraph2": "Whether you're hosting a community event, school function, wellness gathering, or fundraiser, we provide customizable options to meet your needs. All our items are made fresh with quality ingredients and can accommodate various dietary preferences."
   },
   "contact": {
     "title": "Contact Us",
@@ -128,10 +128,10 @@
     }
   },
   "footer": {
-    "description": "A modern taco concept template built to showcase immersive dining experiences and chef-driven menus.",
+    "description": "Fresh Fruit By Ruth - Delicious, fresh fruit trays, platters, and specialty items for all your catering needs.",
     "contactUs": "Contact Us",
     "address": "Your Street Address, City, Country",
-    "copyright": "© {year} Freddys Tacos Template. All rights reserved.",
+    "copyright": "© {year} Fresh Fruit By Ruth. All rights reserved.",
     "social": {
       "visitProfile": "Visit social profile"
     }

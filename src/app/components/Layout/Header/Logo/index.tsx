@@ -18,7 +18,7 @@ const Logo: React.FC<{ sticky: boolean }> = ({ sticky }) => {
       </div>
       <p className={`text-lg md:text-xl font-semibold transition-colors duration-300 whitespace-nowrap ${
         sticky ? 'text-primary' : 'text-white'
-      }`}>Freddys Tacos</p>
+      }`}>Fresh Fruit By Ruth</p>
     </Link>
   )
 }

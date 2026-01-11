@@ -6,7 +6,7 @@ import ScrollableGallery from '@/app/components/Home/Gallery/ScrollableGallery'
 import { Metadata } from 'next'
 import ContactForm from './components/Contact/Form'
 export const metadata: Metadata = {
-  title: 'Freddys Tacos',
+  title: 'Fresh Fruit By Ruth',
 }
 
 export default function Home() {

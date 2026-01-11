@@ -3,12 +3,12 @@
 @custom-variant dark (&:is(.dark *));
 
 @theme {
-  --color-primary: #e0c176;
-  --color-secondary: #f4eed7;
-  --color-accent: #d4a95a;
+  --color-primary: #ff8c00;
+  --color-secondary: #fff8dc;
+  --color-accent: #ffd700;
   --color-deep: #2f2a1f;
-  --color-soft-sky: #f9f5eb;
-  --color-grey: #5b5347;
+  --color-soft-sky: #fffef0;
+  --color-grey: #8b6914;
 
   --spacing-60\%: 60%;
   --spacing-70\%: 70%;
