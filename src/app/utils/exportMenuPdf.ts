@@ -90,6 +90,7 @@ export const exportMenuPdf = (data: MenuPdfData) => {
 
     doc.setFont('helvetica', 'bold')
     doc.setFontSize(16)
+    doc.setTextColor(47, 42, 31) // Deep color (#2f2a1f) for section headings
     doc.text(sectionTitle, marginX, startY)
     startY += 20
 
@@ -117,7 +118,7 @@ export const exportMenuPdf = (data: MenuPdfData) => {
         textColor: '#2f2a1f',
         cellPadding: 8,
         valign: 'middle',
-        lineColor: [255, 248, 220], // Secondary color (#fff8dc)
+        lineColor: [255, 140, 0], // Primary color (#ff8c00) for borders
         lineWidth: 0.4,
       },
       headStyles: {
@@ -155,6 +156,7 @@ export const exportMenuPdf = (data: MenuPdfData) => {
 
     doc.setFont('helvetica', 'bold')
     doc.setFontSize(16)
+    doc.setTextColor(47, 42, 31) // Deep color (#2f2a1f) for section headings
     doc.text('Catering Packages', marginX, cursorY)
     cursorY += 20
 
@@ -198,6 +200,7 @@ export const exportMenuPdf = (data: MenuPdfData) => {
 
     doc.setFont('helvetica', 'bold')
     doc.setFontSize(16)
+    doc.setTextColor(47, 42, 31) // Deep color (#2f2a1f) for section headings
     doc.text('Special Orders & Preorders', marginX, cursorY)
     cursorY += 20
 
@@ -244,6 +247,7 @@ export const exportMenuPdf = (data: MenuPdfData) => {
 
     doc.setFont('helvetica', 'bold')
     doc.setFontSize(16)
+    doc.setTextColor(47, 42, 31) // Deep color (#2f2a1f) for section headings
     doc.text('Upcoming Events', marginX, cursorY)
     cursorY += 20
 
@@ -330,6 +334,7 @@ export const exportMenuPdf = (data: MenuPdfData) => {
 
     doc.setFont('helvetica', 'bold')
     doc.setFontSize(12)
+    doc.setTextColor(47, 42, 31) // Deep color (#2f2a1f) for section headings
     doc.text('Dietary Information', marginX, legendY)
 
     doc.setFont('helvetica', 'normal')
