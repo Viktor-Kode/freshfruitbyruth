@@ -101,7 +101,16 @@ export const FullMenuData: FullMenuType[] = [
     style: 'Fruit Trays & Platters',
     price: '$12.00',
     description:
-      'Mango, pineapple, watermelon, cucumber, jícama, orange, coconut flakes, papaya, chile, lemon',
+      'Choice of: Mango, pineapple, watermelon, cucumber, jícama, orange, coconut flakes, papaya, chile, lemon',
+    dietary: ['vegan', 'vegetarian', 'gluten-free'],
+    availability: 'standard',
+  },
+  {
+    name: 'Mixed Fruit Cup (12 oz)',
+    style: 'Fruit Trays & Platters',
+    price: '$12.00',
+    description:
+      'Choice of: Mango, pineapple, watermelon, cucumber, jícama, orange, coconut flakes, papaya, chile, lemon',
     dietary: ['vegan', 'vegetarian', 'gluten-free'],
     availability: 'standard',
   },

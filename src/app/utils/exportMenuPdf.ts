@@ -30,7 +30,9 @@ export const exportMenuPdf = (data: MenuPdfData) => {
 
   doc.setFont('helvetica', 'bold')
   doc.setFontSize(24)
+  doc.setTextColor(255, 140, 0) // Primary color (#ff8c00)
   doc.text(`${vendorName} Menu`, marginX, cursorY)
+  doc.setTextColor(47, 42, 31) // Reset to deep color (#2f2a1f)
 
   doc.setFontSize(11)
   doc.setFont('helvetica', 'normal')
@@ -115,11 +117,11 @@ export const exportMenuPdf = (data: MenuPdfData) => {
         textColor: '#2f2a1f',
         cellPadding: 8,
         valign: 'middle',
-        lineColor: '#f1e3b2',
+        lineColor: [255, 248, 220], // Secondary color (#fff8dc)
         lineWidth: 0.4,
       },
       headStyles: {
-        fillColor: [224, 193, 118],
+        fillColor: [255, 140, 0], // Primary color (#ff8c00)
         textColor: '#2f2a1f',
         fontStyle: 'bold',
       },

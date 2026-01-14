@@ -74,8 +74,18 @@ const MenuContainer = () => {
       {/* Dietary Legend - Right after menu sections */}
       {allDietaryTags.length > 0 && (
         <div className='container py-8'>
-          <div className='flex justify-center'>
+          <div className='flex flex-col items-center gap-6'>
             <DietaryLegend iconSize={16} tags={allDietaryTags} />
+            <div className='max-w-3xl w-full'>
+              <h4 className='text-sm font-semibold text-[#2f2a1f]/70 mb-3'>
+                Catering Notes
+              </h4>
+              <ul className='text-xs text-[#2f2a1f]/80 space-y-1.5 list-disc list-inside'>
+                <li>Prices may vary based on event size and customization</li>
+                <li>Ideal for community events, school activations, wellness events, and fundraisers</li>
+                <li>Bulk fruit trays, juices, and aguas frescas available upon request</li>
+              </ul>
+            </div>
           </div>
         </div>
       )}
